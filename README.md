@@ -15,6 +15,10 @@ HttpServer：nginx
 ディレクトリ「src」にコードを作成します。
 zipダウンロードの場合、展開したフォルダにターミナルで移動し
 ```
-docker-compose up
+docker-compose up -d
 ```
 で環境が起動します。
+```
+docker-compose down
+```
+でDockerを停止します。
